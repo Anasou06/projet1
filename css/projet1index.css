@@ -93,6 +93,9 @@ h1 {
     flex: 1;
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    font-size: 20px;
     }
 strong{
     font-family: "Science Gothic", sans-serif;
@@ -117,4 +120,63 @@ strong{
 
 summary:hover {
     cursor: pointer;
+}
+.goat{
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+footer {
+    background-color: #3a9878;
+    height: 70px;
+    width: 100%;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+footer a:hover{
+    background-color: blue;
+    color: orange;
+}
+#personnage{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap:50px;
+}
+
+#introp{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+.personnage{
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.personnage:hover {
+    color: orange; 
+    background-color: blue;
 }
