@@ -13,6 +13,14 @@ nav {
 
 }
 
+
+#vegeta1{
+    background-color: black;
+    color:white;
+}
+
+
+
 nav a:hover {
     color: orange; 
     background-color: blue;
@@ -239,6 +247,7 @@ footer a:hover{
     background-color: black;
     color: white;
 }
+
 
 #presentationgoku{
     display: flex;

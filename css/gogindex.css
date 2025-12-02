@@ -3,7 +3,7 @@ body {background-color: white;
     font-size: 15px;
     background-image: url("../image/387102.jpg");
     background-size: cover;
-    background-attachment: fixed; /* reste fixe quand on scroll */
+    background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
     }
