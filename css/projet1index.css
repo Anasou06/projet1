@@ -1,9 +1,9 @@
 body {background-color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 15px;
-    background-image: url("image/0452c39ab81eade986637cf71d2bbe17.jpg");
+    background-image: url("../image/0452c39ab81eade986637cf71d2bbe17.jpg");
     background-size: cover;
-    background-attachment: fixed; /* reste fixe quand on scroll */
+    background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
     }
@@ -98,10 +98,6 @@ strong{
     font-size: 20px;
 }
 
-#home{
-    color: white;
-    background-color: black;
-}
 
 .bloc2 {
     padding: 20px;
