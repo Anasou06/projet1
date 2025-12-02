@@ -98,6 +98,12 @@ strong{
     font-family: "Science Gothic", sans-serif;
     font-size: 20px;
 }
+
+#home{
+    color: white;
+    background-color: black;
+}
+
 .bloc2 {
     padding: 20px;
     background: rgba(255, 255, 255, 0.5);
