@@ -1,3 +1,8 @@
+#vgt{
+    background-color: black;
+    color: white;
+}
+
 body {background-color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 15px;
@@ -23,8 +28,8 @@ nav {
 }
 
 nav a:hover {
-    color: #4dba7a; 
-    background-color: #ceaf7e  ;
+    color: black; 
+    background-color: white  ;
 }
 
 .icone{
@@ -145,8 +150,8 @@ footer a{
 }
 
 footer a:hover{
-    background-color: blue;
-    color: orange;
+    background-color: white;
+    color: black;
 }
 #personnage{
     display: flex;
@@ -172,6 +177,10 @@ footer a:hover{
 }
 
 .personnage:hover {
-    color: orange; 
-    background-color: blue;
+    color: black; 
+    background-color: white;
 }
+
+
+
+

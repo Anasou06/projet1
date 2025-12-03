@@ -13,18 +13,6 @@ nav {
 
 }
 
-#photohaut {
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    gap: 200px;
-    padding: 10px 20px;
-    color: black;
-}
-
-body{
-    background-image: url("https://i.redd.it/landscape-of-demon-realm-looks-more-gorgeous-than-living-v0-dfk6895jm3xd1.jpg?width=4096&format=pjpg&auto=webp&s=088808cea77d769ace9d6fc4dec1bcce18627153");
-}
 
 #vegeta1{
     background-color: black;
@@ -34,8 +22,8 @@ body{
 
 
 nav a:hover {
-    color: white; 
-    background-color: black;
+    color: orange; 
+    background-color: blue;
 }
 
 .icone{
@@ -89,33 +77,21 @@ main {
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
-#consanguin{
+#gokuimg{
     border:5px solid black;
-    border-radius: 50px;
+    border-radius: 150px;
     background-color: white;
-    background-image: url("../image/aaaa.jpg");
+    background-image: url("../image/francisco-segovia-bg-dying-planet-firma.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
-
-#consanguin1{
-    border:5px solid black;
-    border-radius: 50px;
-    background-color: white;
-    background-image: url("https://i.pinimg.com/736x/9d/bc/b0/9dbcb07bef6aa965d494ad0f8141dad6.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 80%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-    transform: scaleX(-1);
-}
 #ssj3{
     border:5px solid black;
     border-radius: 150px;
     background-color: white;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWCV8FDXcz2lKDbcnu3iWje3lGRODvOAoMQ&s");
+    background-image: url("../image/istockphoto-1300645794-612x612.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -186,7 +162,7 @@ details video{
     gap:50px;
 }
 
-.introp{
+#introp{
     font-size: xx-large;
     
 }
@@ -219,17 +195,6 @@ footer {
     align-items: center;
 }
 
-#transformations{
-    display: flex;
-    gap: 5px;
-    justify-content: center;
-}
-
-
-.transform{
-    border: 2px solid black;
-    border-radius: 20px;
-}
 #ww{
     font-size: large;
     text-align: center;
@@ -278,7 +243,10 @@ footer a:hover{
     color:white;
 }
 
-
+#goku{
+    background-color: black;
+    color: white;
+}
 
 
 #presentationgoku{
@@ -321,9 +289,4 @@ details p, ul li{
     gap: 10px;
     justify-content: center;
     align-items: center;
-}
-
-#fils{
-    background-color: black;
-    color: white;
 }

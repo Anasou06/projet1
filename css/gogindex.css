@@ -36,8 +36,8 @@ nav {
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 nav a:hover {
-    color: #4dba7a; 
-    background-color: #ceaf7e  ;
+    color: black; 
+    background-color: white  ;
 }
 
 .icone{
@@ -110,10 +110,13 @@ footer a:hover{
     color: black;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
-
+#gogegta{
+    background-color: black;
+    color: white;
+}
 .personnage:hover {
-    color: orange; 
-    background-color: blue;
+    color: black; 
+    background-color: white ;
 }
 
 .logo {
