@@ -84,7 +84,8 @@ h1 {
 .conteneur {display: flex;
     justify-content: space-evenly;
     gap: 30px;
-    text-align: center
+    text-align: center; 
+    align-items: flex-start; 
     }
 .bloc {
     padding: 20px;

@@ -68,20 +68,39 @@ h1 {
 
 }
 .pics {
-    display: flex;          
-    justify-content: center; 
-    gap: 100px;               
-    flex-wrap: wrap;         
-    padding: 10px;
-    }
-.pics img {
-    width: 200px;           
-    height: 200px;           
-    object-fit: cover;       
-    border-radius: 10px;     
-    display: block;
-    
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 200px; 
+    gap: 15px;
+    text-align: center;
+}
+
+.item {
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.item2 {
+    background-size: 150px;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item1 {
+    grid-column: span 1;
+    grid-row: span 2;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;    
+}
+.item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
 
 
 
