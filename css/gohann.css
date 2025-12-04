@@ -127,7 +127,7 @@ main {
     border:5px solid black;
     border-radius: 150px;
     background-color: white;
-    background-image: url("../image/Dbz24229_20120404-16203381.webp");
+    background-image: url("/image/Dbz24229_20120404-16203381.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 25%;
