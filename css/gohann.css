@@ -10,7 +10,7 @@ nav {
     border-radius: 50px;
     border: 5px solid black;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-
+    flex-wrap: wrap;
 }
 
 #photohaut {
@@ -20,32 +20,35 @@ nav {
     gap: 200px;
     padding: 10px 20px;
     color: black;
+    flex-wrap: wrap;
 }
 
-body{
+body {
     background-image: url("https://i.redd.it/landscape-of-demon-realm-looks-more-gorgeous-than-living-v0-dfk6895jm3xd1.jpg?width=4096&format=pjpg&auto=webp&s=088808cea77d769ace9d6fc4dec1bcce18627153");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-#vegeta1{
+#vegeta1 {
     background-color: black;
-    color:white;
+    color: white;
 }
-
-
 
 nav a:hover {
     color: white; 
     background-color: black;
 }
 
-.icone{
-    height:100px;
-    width:100px;
+.icone {
+    height: 100px;
+    width: 100px;
     border-radius: 50px;
-    border:3px solid black;
+    border: 3px solid black;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
-nav a{
+
+nav a {
     color: black;
     text-decoration: none;
     border: 2px solid black;
@@ -53,6 +56,7 @@ nav a{
     padding: 10px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
+
 #recherche {
     margin-left: auto;
     height: 30px;
@@ -65,9 +69,10 @@ nav a{
 main {
     text-align: center;
     margin-top: 50px;
+    padding: 0 10px;
 }
 
-#presentation {
+#presentation, #presentation1 {
     display: inline-block;
     font-size: xx-large;
     color: black;
@@ -76,21 +81,11 @@ main {
     border-radius: 50px;
     padding: 10px 20px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    max-width: 90%;
 }
 
-#presentation1 {
-    display: inline-block;
-    font-size: xx-large;
-    color: black;
-    text-decoration: none;
-    border: 2px solid black;
-    border-radius: 50px;
-    padding: 10px 20px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
-
-#consanguin{
-    border:5px solid black;
+#consanguin {
+    border: 5px solid black;
     border-radius: 50px;
     background-color: white;
     background-image: url("../image/aaaa.jpg");
@@ -98,21 +93,26 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    max-width: 100%;
+    height: auto;
 }
 
-#consanguin1{
-    border:5px solid black;
+#consanguin1 {
+    border: 5px solid black;
     border-radius: 50px;
     background-color: white;
     background-image: url("https://i.pinimg.com/736x/9d/bc/b0/9dbcb07bef6aa965d494ad0f8141dad6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 80%;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
     transform: scaleX(-1);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    max-width: 100%;
+    height: auto;
 }
-#ssj3{
-    border:5px solid black;
+
+#ssj3 {
+    border: 5px solid black;
     border-radius: 150px;
     background-color: white;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWCV8FDXcz2lKDbcnu3iWje3lGRODvOAoMQ&s");
@@ -120,11 +120,12 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-
+    max-width: 100%;
+    height: auto;
 }
 
-#gotenks{
-    border:5px solid black;
+#gotenks {
+    border: 5px solid black;
     border-radius: 150px;
     background-color: white;
     background-image: url("/image/Dbz24229_20120404-16203381.webp");
@@ -132,11 +133,12 @@ main {
     background-repeat: no-repeat;
     background-position: center 25%;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    max-width: 100%;
+    height: auto;
 }
 
-
-#gohan{
-    border:5px solid black;
+#gohan {
+    border: 5px solid black;
     border-radius: 150px;
     background-color: white;
     background-image: url("../image/397ee2b2c25ebca89bf5698c8e56cbd8.jpg");
@@ -144,54 +146,50 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    max-width: 100%;
+    height: auto;
 }
-.duo{
+
+.duo {
     border: 5px solid black;
-    border-radius:50px;
-    margin-top: 50px;
-    margin-left: 15px;
-    margin-right: 15px;    
+    border-radius: 50px;
+    margin: 50px 15px 0 15px;    
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
-
-body{
-    background-color: slategray;
+details {
+    margin: 50px 10px;
 }
 
-details{
-    margin: 100px;
-}
-
-#wow{
+#wow {
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
-#gogeta{
+#gogeta {
     margin: 50px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
-details video{
-    border:2px solid black;
+details video {
+    border: 2px solid black;
     border-radius: 20px;
+    max-width: 100%;
 }
 
-#personnage{
+#personnage {
     display: flex;
     justify-content: center; 
     align-items: center;    
-    gap:50px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
-.introp{
+.introp {
     font-size: xx-large;
-    
 }
 
-.personnage{
+.personnage {
     font-size: large;
     border: 2px solid black;
     border-radius: 20px;
@@ -219,21 +217,21 @@ footer {
     align-items: center;
 }
 
-#transformations{
+#transformations {
     display: flex;
     gap: 5px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-
-.transform{
+.transform {
     border: 2px solid black;
     border-radius: 20px;
 }
-#ww{
+
+#ww {
     font-size: large;
     text-align: center;
-
 }
 
 .videos {
@@ -244,22 +242,18 @@ footer {
     margin-top: 10px;
 }
 
-#jsp{
-    border:5px solid black;
+#jsp {
+    border: 5px solid black;
     border-radius: 50px;
     padding: 20px;
 }
 
-#jsp:hover{
+#jsp:hover {
     color: black;
     background-color: white;
 }
 
-
-
-
-
-footer a{
+footer a {
     justify-content: center;
     text-decoration: none;
     color: black;
@@ -268,20 +262,17 @@ footer a{
     padding: 5px;
 }
 
-footer a:hover{
+footer a:hover {
     background-color: white;
     color: black;
 }
 
-#home{
+#home {
     background-color: black;
-    color:white;
+    color: white;
 }
 
-
-
-
-#presentationgoku{
+#presentationgoku {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -290,30 +281,29 @@ footer a:hover{
     text-align: center;
 }
 
-div details{
+div details {
     border: 2px solid black;
-    padding:20px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
-div details:hover{
+div details:hover {
     cursor: pointer;
     color: black;
     background-color: white;
-
 }
 
-details p, ul li{
+details p, ul li {
     text-align: left;
 }
 
-
-
-#goku4, #gokussj, #namekien{
+#goku4, #gokussj, #namekien {
     border: 5px solid black;
     border-radius: 50px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    max-width: 100%;
+    height: auto;
 }
 
 #deuximages {
@@ -321,9 +311,69 @@ details p, ul li{
     gap: 10px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-#fils{
+#fils {
     background-color: black;
     color: white;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+    #photohaut {
+        gap: 100px;
+    }
+    #presentation, #presentation1 {
+        font-size: x-large;
+    }
+    #deuximages {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .icone {
+        height: 80px;
+        width: 80px;
+    }
+    #photohaut {
+        gap: 50px;
+    }
+    #presentation, #presentation1 {
+        font-size: large;
+        padding: 8px 15px;
+    }
+    .introp {
+        font-size: large;
+    }
+    #personnage {
+        flex-direction: column;
+        gap: 15px;
+    }
+    #transformations {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icone {
+        height: 60px;
+        width: 60px;
+    }
+    #presentation, #presentation1 {
+        font-size: medium;
+        padding: 5px 10px;
+    }
+    .introp {
+        font-size: medium;
+    }
+    #photohaut {
+        gap: 20px;
+        flex-direction: column;
+    }
 }

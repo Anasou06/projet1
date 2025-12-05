@@ -1,12 +1,16 @@
-body {background-color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+body {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 15px;
     background-image: url("../image/387102.jpg");
     background-size: cover;
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
-    }
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     display: flex;
     justify-content: center; 
@@ -19,41 +23,30 @@ nav {
     border-radius: 50px;
     border: 5px solid black;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
-.fusion1 {
-    display: block;
-    margin:0 auto;
-    width: 600px;
-    height: 600px;
-}
-.fusion2 {
-    display: block;
-    margin:0 auto;
-    width: 1000px;
-    height: 600px;
-    border-radius: 15px;
-    border: 5px solid black;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
-nav a:hover {
-    color: black; 
-    background-color: white  ;
+    flex-wrap: wrap;
 }
 
-.icone{
-    height:100px;
-    width:100px;
-    border-radius: 50px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-    border:3px solid black;
-}
-nav a{
+nav a {
     color: black;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 50px;
     padding: 10px;
 }
+
+nav a:hover {
+    color: black; 
+    background-color: white;
+}
+
+.icone {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    border: 3px solid black;
+}
+
 #recherche {
     margin-left: auto;
     height: 30px;
@@ -61,6 +54,24 @@ nav a{
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+
+.fusion1 {
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+    height: auto;
+}
+
+.fusion2 {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
 footer {
@@ -71,11 +82,12 @@ footer {
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-footer a{
+
+footer a {
     justify-content: center;
     text-decoration: none;
     color: black;
@@ -84,24 +96,25 @@ footer a{
     padding: 5px;
 }
 
-footer a:hover{
+footer a:hover {
     background-color: blue;
     color: orange;
 }
-#personnage{
+
+#personnage {
     display: flex;
     justify-content: center; 
     align-items: center;    
-    gap:50px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
-#introp{
+#introp {
     font-size: xx-large;
     text-align: center;
-    
 }
 
-.personnage{
+.personnage {
     font-size: large;
     border: 2px solid black;
     border-radius: 20px;
@@ -110,42 +123,49 @@ footer a:hover{
     color: black;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
-#gogegta{
-    background-color: black;
-    color: white;
-}
+
 .personnage:hover {
     color: black; 
-    background-color: white ;
+    background-color: white;
+}
+
+#gogegta {
+    background-color: black;
+    color: white;
 }
 
 .logo {
     width: 55px;
     height: 45px;
 }
+
 h1 {
     text-align: center;
     font-size: 50px;
     font-family: "Science Gothic", sans-serif;
     color: #b9150b;
 }
+
 .trait {
     width: 100%;
     height: 1px;
     background-color: black;
     margin: 20px 0;
 }
+
 h2 {
     text-align: center;
     font-size: 35px;
     font-family: "Science Gothic", sans-serif;
     color: #b9150b;
 }
-h3{
+
+h3 {
     text-align: center;
     font-size: 30px;
-    font-family: "Science Gothic" sans-serif;  
+    font-family: "Science Gothic", sans-serif;
 }
+
 .text {
     font-size: 20px;
     border-radius: 15px;
@@ -159,28 +179,32 @@ h3{
     font-weight: 700;
     background: rgba(255, 255, 255, 0.5);
 }
-.conteneur {display: flex;
+
+.conteneur {
+    display: flex;
     justify-content: space-evenly;
     gap: 30px;
-    text-align: center
-    }
+    flex-wrap: wrap;
+}
+
 .bloc {
     padding: 20px;
     border-radius: 10px;
     border: 5px solid black;
-    flex: 1;
+    flex: 1 1 300px;
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
     font-family: 'Courier New', Courier, monospace;
-    font-style: bold;
+    font-weight: bold;
     font-size: 20px;
     gap: 30px;
-    }
+}
 
-#gogeta{
+#gogeta {
     margin: 50px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
+
 .videos {
     display: flex;
     gap: 20px;       
@@ -188,7 +212,79 @@ h3{
     align-items: center;
     margin-top: 10px;
 }
-details video{
-    border:2px solid black;
+
+details video {
+    border: 2px solid black;
     border-radius: 20px;
+    max-width: 100%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+    .fusion1 {
+        width: 80%;
+        height: auto;
+    }
+    .fusion2 {
+        width: 90%;
+        height: auto;
+    }
+    .conteneur {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .icone {
+        height: 80px;
+        width: 80px;
+    }
+    #personnage {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .text {
+        font-size: medium;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icone {
+        height: 60px;
+        width: 60px;
+    }
+    .fusion1 {
+        width: 90%;
+        height: auto;
+    }
+    .fusion2 {
+        width: 100%;
+        height: auto;
+    }
+    .text {
+        font-size: small;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
 }
