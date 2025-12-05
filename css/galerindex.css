@@ -82,7 +82,7 @@ h1 {
     border: 5px solid black;
 }
 .item2 {
-    background-size: 150px;
+    object-position: center 20%
 }
 .item img {
     width: 100%;
